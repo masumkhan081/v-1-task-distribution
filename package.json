@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon",
-    "dist": "npm-prepare-dist"
+    "build": "npm build"
   },
   "keywords": [],
   "author": "",
