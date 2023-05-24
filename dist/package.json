@@ -2,11 +2,11 @@
   "name": "src_code_test_12_04_23",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./index.js",
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon",
-    "dist": "npm-prepare-dist"
+    "build":"npm build"
   },
   "keywords": [],
   "author": "",
@@ -25,8 +25,6 @@
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.22",
-    "npm-prepare-dist": "^0.4.1"
-  }
+  "module": "./index.js",
+  "types": "./index.d.ts"
 }
